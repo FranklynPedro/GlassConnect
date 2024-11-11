@@ -1,0 +1,109 @@
+/* Reset and basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body styling */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(145deg, #3a7bd5, #3a6073);
+    min-height: 100vh;
+    color: #ffffff;
+}
+
+/* Header styling */
+.header {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 18px;
+    color: #d3d3d3;
+}
+
+/* Main container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Glassmorphism contact form styling */
+.contact-form {
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Form title */
+.contact-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+/* Label styling */
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    text-align: left;
+    font-size: 14px;
+    color: #e0e0e0;
+}
+
+/* Input fields */
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+    color: #333333;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+/* Textarea */
+.contact-form textarea {
+    height: 100px;
+    resize: none;
+}
+
+/* Submit button */
+.contact-form button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #4f9ad1;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+    background: #3a7bd5;
+}
